@@ -116,12 +116,12 @@
 /*Estilos para contenedor para la imagen*/
 .contenedorImagen{
     background-color: cornsilk;
-    width: 40%;
+    width: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 20px;
-    padding: 20px;
+    padding: 15px;
     border-radius: 10px;
     border: 2px solid black;
 }
@@ -136,12 +136,14 @@
 
 /** ESTILOS PARA EL FOOTER - LOGO GIT HUB **/
 
+/*Estilos para el titulo*/
 .styleTituloH3{
     font-size: medium;
     font-weight: 700;
     padding: 5px;
 }
 
+/*Estilos para el contenedor logo Git hub*/
 .ContenedorGitHub{
     display: flex;
     flex-direction:column;
@@ -150,11 +152,12 @@
     
 }
 
+/*Estilos para la imagen/logo de github*/
 .imgGitHub{
     width: 40px;
 
 }
-
+/*Estilos para el username github*/
 .userGitHub{
     font-size: medium;
     font-weight: 600;
