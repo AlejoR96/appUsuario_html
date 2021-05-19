@@ -18,11 +18,14 @@
 .styleHeader{
     background-color: cornflowerblue;
     width: 90%;
+    /*margin: 20px 15px 20px 15px;
+    padding: 5px 15px 5px 15px;*/
     margin: 10px;
     padding: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 5px;
 }
 
 /**ESTILOS PARA MAIN - CONTENIDO**/
@@ -34,14 +37,135 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 5px;
 }
 
 /**ESTILOS PARA EL FOOTER - PIE DE PAGINA**/
 .styleFooter{
     background-color: cornflowerblue;
     width: 90%;
+    margin: 10px;
     padding: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 5px;
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+
+/*** ESTILOS PARA LOS ELEMENTOS SECUNDARIOS ***/
+
+/** ESTILOS PARA HEADER - BOTONES DEL MENU PRINCIPAL **/
+
+/*Estilos para el contenedor*/
+.styleNavMenuP{
+
+} 
+/*Estilos Lista ordenada del menu */
+.styleUl{
+
+    display:flex;
+
+}
+/*Estilos para darle forma y color a los botones*/
+.styleLi{
+    list-style: none;
+    background-color: cornsilk;
+    margin: 20px 15px 20px 15px;
+    padding: 5px 15px 5px 15px;
+    /*margin: 20px;
+    padding: 15px;*/
+    border-radius: 5px;
+    border:1px solid black;
+
+}
+
+/*Estilos para quitar el subrayado y puntos*/
+.styleLink{
+    text-decoration: none;
+    color: black;
+}
+
+/*Estilos agregar el efecto de activar el color con el mouse*/
+.styleLi:hover{
+    background-color: gold;
+
+}
+
+/*-------------------------------------------------------------------------------------------------*/
+
+/*** ESTILOS PARA LOS ELEMENTOS SECUNDARIOS ***/
+
+/** ESTILOS PARA LOS ELEMENTOS DEL MAIN - CONTENIDO **/
+
+/*Estilos para el titulo*/
+.styleTituloH1{
+    font-size: larger;
+    font-weight: 400;
+    margin: 15px;
+}
+/*Estilos para la section*/
+.styleSection{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+
+}
+/*Estilos para contenedor para la imagen*/
+.contenedorImagen{
+    background-color: cornsilk;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+/*Estilos para la imagen pricipal*/
+.ImgPrincipal{
+    width: 100%;
+}
+
+/*-------------------------------------------------------------------------------------------------*/
+
+/*** ESTILOS PARA LOS ELEMENTOS SECUNDARIOS ***/
+
+/** ESTILOS PARA EL FOOTER - LOGO GIT HUB **/
+
+.styleTituloH3{
+    font-size: medium;
+    font-weight: 700;
+    padding: 5px;
+}
+
+.ContenedorGitHub{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.imgGitHub{
+    width: 40px;
+
+}
+
+.userGitHub{
+    font-size: medium;
+    font-weight: 600;
+    
+}
+
+.userGitHub:hover{
+    color: gold;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
