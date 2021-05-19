@@ -1,0 +1,47 @@
+/***ESTILOS PRINCIPALES***/
+
+/*FORMATEAR ESTILOS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/**ESTILOS PARA EL BODY - CUERPO DE PAGINA**/
+.styleBody{
+    background-color: cornsilk;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/**ESTILOS PARA EL HEADER - ENCABEZADO **/
+.styleHeader{
+    background-color: cornflowerblue;
+    width: 90%;
+    margin: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/**ESTILOS PARA MAIN - CONTENIDO**/
+.styleMain{
+    background-color: cornflowerblue;
+    width: 90%;
+    margin: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/**ESTILOS PARA EL FOOTER - PIE DE PAGINA**/
+.styleFooter{
+    background-color: cornflowerblue;
+    width: 90%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
